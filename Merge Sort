@@ -30,9 +30,3 @@ void mergeSort(vector<int>& arr, int low, int high) {
         merge(arr, low, mid, mid + 1, high);
     }
 }
-
-int main() {
-    vector<int> arr;
-    mergeSort(arr, 0, arr.size() - 1);
-    return 0;
-}
